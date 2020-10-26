@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'Minipax';
+  src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'VG5000';
+  src: url('fonts/VG5000/VG5000-Regular_web.woff') format('woff');
+}
+
+html{
+
+  background-image: url("spiderweb.jpg");
+  background-size: 150%;
+  background-position: center;
+}
+
+body{
+
+font-size: 15px;
+
+}
+
+.welcoming_words {
+
+
+text-align: justify;
+font-family: Minipax;
+margin-left: 10px;
+margin-right: 10px;
+max-width: 500px;
+background-color: white;
+position: absolute;
+box-shadow: 5px 10px black;
+
+}
+
+/* #homepage {
+
+background-image: url("spiderweb.jpg");
+background-size: 2500px;
+background-position: center;
+opacity: 100%; */
+
+
+}
