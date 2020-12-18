@@ -1,0 +1,140 @@
+@font-face {
+  font-family: 'Minipax';
+  src: url('fonts/Minipax/Minipax-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'VG5000';
+  src: url('fonts/VG5000/VG5000-Regular_web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Menlo';
+  src: url('Menlo-Regular.woff') format('woff');
+}
+
+
+html{
+
+width: 1200px;
+height: 800px;
+
+  /* background-image: url("spiderweb.jpg");
+  background-size: 200%;
+  background-position: center;
+
+} */}
+
+
+p{
+
+
+  text-align: center;
+  align: center;
+  font-family: Menlo;
+  font-size: 20px;
+  margin-top: 2em;
+  margin-left: 8em;
+  letter-spacing: 2px;
+
+}
+
+span:hover{
+
+background-color: yellow;
+color: black;
+
+
+}
+
+/* .Network {
+
+  font-family: Minipax;
+  font-size: 15px;
+  color: black;
+  margin-top: -385px;
+  margin-left: 200px;
+}
+
+
+.DIY {
+
+  font-family: Minipax;
+  font-size: 15px;
+  color: black;
+  margin-top: 180px;
+  margin-left: 925px;
+
+}
+
+.Stockists{
+
+  font-family: Minipax;
+  font-size: 15px;
+  color: black;
+  margin-top: -225px;
+  margin-left: 250px;
+}
+
+.About {
+
+  font-family: Minipax;
+  font-size: 15px;
+  color: black;
+  margin-top: 130px;
+  margin-left: 850px;
+}
+
+.Gallery {
+
+  font-family: Minipax;
+  font-size: 15px;
+  color: black;
+  margin-top: -200px;
+  margin-left: 565px;
+
+}
+
+.SkateorDye {
+
+  font-family: Minipax;
+  font-size: 16px;
+  color: black;
+  margin-top: -700px ;
+  margin-left:;
+
+}
+
+
+body{
+
+font-size: 15px;
+
+}
+
+.welcoming_words {
+
+
+text-align: center;
+align: center;
+font-family: Minipax;
+margin-left: 0px;
+margin-right: 0px;
+max-width: 500px;
+min-width: 450px;
+background-color: white;
+box-shadow: 5px 10px black;
+margin-top: 10px;
+display: inline-table;
+
+} */
+
+/* #homepage {
+
+background-image: url("spiderweb.jpg");
+background-size: 2500px;
+background-position: center;
+opacity: 100%; */
+
+
+}
