@@ -1,2 +1,1 @@
-# skateordye.github.io
-skateordye webpage in progress
+skateordye.github.io
