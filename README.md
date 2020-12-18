@@ -1,1 +1,1 @@
-#skateordye.github.io
+skateordye.github.io
