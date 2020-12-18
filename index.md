@@ -1,1 +1,86 @@
 
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<mega charset="utf-8"
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SkateorDye</title>
+<link rel="stylesheet" type="text/css" href="SkateorDye.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&family=Roboto+Mono:wght@100;300;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+<scrip type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js">
+</head>
+
+
+<body class="Welcome_to_SkateorDye" >
+
+<p>
+                <span>Gallery</span>   <br>
+            \         |         /              <br>
+             \       /|\       /     <br>
+          _____About     /\'.__.' : '.__.'/\  Stockists_<br>
+ __.'  \      |      /  '.__ <br>
+        '.     /\'---':'---'/\     .' <br>
+        \ '. /'  \__ _|_ __/  '\ .' /  <br>
+         |  /.   /\ ' : ' /\   .\  |  <br>
+         |  | './  \ _|_ /  \.' |  |  <br>
+        / '/.  /'. // : \\ .'\  .\' \ <br>
+network __/___/___/_\(+)/_\___\___\__ DIY____    <br>
+          \   \   \ /(O)\ /   /   /    <br>
+        \ .\'  \.' \\_:_// './  '/. / <br>
+         |  | .'\  /  |  \  /'. |  |   <br>
+         |  \'   \/_._:_._\/   '/  |  <br>
+        / .' \   /    |    \   / '. \  <br>
+         .’_   '\/.---.:.---.\/'   _'. <br>
+           '.  / __   |   __ \  .'   <br>
+             \/.'  '. : .'  '.\/     <br>
+             /       \|/       \     <br>
+            /         |.        \    <br>
+            <br>
+            <br>
+
+Skate or Dye on the Web
+
+
+
+</p>
+
+
+
+
+
+
+  <!-- <table id="homepage" width="90%" height= "90%" margins= "20px" align="center" >
+    <tr>
+      <th  > <img src="Skate Or.jpg" width="100%" align="left" display="table-cell" /> </th>
+      <th > </th>
+      <th ><img src= "dye.jpg" width= "100%"  align= "left" dispaly="table-cell"</th>
+    </tr>
+    <tr>
+    <td ></td>
+      <td>
+      <video autoplay muted loop width="100%" display="block" >
+ <source src="glitchy lily.mov" type="video/mp4" align="center"  >
+      </video>
+        </td>
+      <td></td>
+    </tr>
+    <tr>
+<td  > <img src="Life cycle and death.jpg" width="100%" align="right" display="block"/> </td>
+<td  class="welcoming_words" >  This website is living and breathing the way a flower is. It takes up physical space, resources, energy to be alive. Thus it will also die. This is meant to be oper source way of sharing the information in this book but not to last forever. Like responsible gardening we want to tend to responsible online life too.
+</td>
+<td width="25%" > <img src="Theory Says.jpg" height="10%" align="left"/> </td>
+    </tr>
+  </table>
+  <br> -->
+</div>
+
+
+
+
+
+</body>
+</html>
