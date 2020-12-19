@@ -89,7 +89,7 @@ width: 30%;
   display: none;
 }
 
-.hovertest:hover .hover image{
+.hovertest:hover .hoverimage{
   display: block;
 }
 
