@@ -71,36 +71,7 @@ text-decoration: none;
 
 } */
 
-  @keyframes shake{
-    0%{
-      transform: translateX(0)
-    }
-    25%{
-      transform: translateX(25px);
-    }
-
-    50%{
-      transform: translateX(-25px);
-    }
-    100%{
-      transform: translateX(0px);
-    }
-  }
-
-.column {
-  float: left;
-  padding: 5px;
-}
-
-.column img {
-  margin-top: 12px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  display: table;
-  clear: both;
-}
+ 
 
 /* .Network {
 
