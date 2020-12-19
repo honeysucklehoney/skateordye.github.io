@@ -47,6 +47,47 @@ color: black;
 
 }
 
+a {
+
+color: black;
+text-decoration: none;
+
+
+}
+
+/* div{
+
+  text-align: center;
+  font-size: 20px;
+
+
+} */
+
+/* div:hover {
+  animation:  shake 1s  ;
+  text-align: center;
+  margin-left: 8em;
+
+
+} */
+
+  @keyframes shake{
+    0%{
+      transform: translateX(0)
+    }
+    25%{
+      transform: translateX(25px);
+    }
+
+    50%{
+      transform: translateX(-25px);
+    }
+    100%{
+      transform: translateX(0px);
+    }
+  }
+
+
 /* .Network {
 
   font-family: Minipax;
