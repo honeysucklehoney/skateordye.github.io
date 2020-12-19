@@ -59,10 +59,11 @@ text-decoration: none;
 }
 
 .leftside{
-  float: left;
+  background: red;
 }
 
 .rigthside{
+  background: blue;
 }
 
 
