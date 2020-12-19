@@ -55,9 +55,10 @@ text-decoration: none;
 
 .container
 {
+top-margin:2em;
 display: flex;
 justify-content: space between;
-/* flex-wrap: wrap; added - this tells Flex to wrap onto a new line, if there is no space. */
+flex-wrap: wrap; /*added - this tells Flex to wrap onto a new line, if there is no space. */
 }
 
 .column
