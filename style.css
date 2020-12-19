@@ -91,6 +91,10 @@ width: 30%;
   background-image: url("photos/Photo_22.jpg");
 }
 
+.container:hover .overlay {
+  opacity: 1;
+}
+
 /* div{
 
   text-align: center;
