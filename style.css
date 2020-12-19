@@ -53,7 +53,7 @@ color: black;
 text-decoration: none;
 }
 
-.row {
+.row:after {
   display: flex;
 }
 
