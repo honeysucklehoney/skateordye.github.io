@@ -55,6 +55,7 @@ text-decoration: none;
 
  .column {
     float: left;
+   width 30%
     }
 
 .row:after {
