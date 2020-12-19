@@ -16,7 +16,7 @@
 
 html{
 
-width: 1600px;
+width: 1500px;
 height: 800px;
 
   /* background-image: url("spiderweb.jpg");
@@ -77,6 +77,21 @@ width: 30%;
   object-fit: contain; /* prevents image from stretching */
 }
 
+.hovertest {
+  position: relative;
+  float: left;
+}
+
+.hovertest .column {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: none;
+}
+
+.hovertest:hover .hover {
+  display: block;
+}
 
 /* div{
 
