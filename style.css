@@ -54,19 +54,21 @@ text-decoration: none;
 }
 
 .row:after {
-  display: flex;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .left {
-  flex: 30%;
+  width: 30%;
 }
 
 .middle{
-  flex: 30%;
+  width: 30%;
 }
 
 .right {
-  flex: 30%;
+  width: 30%;
 }
 
 /* div{
