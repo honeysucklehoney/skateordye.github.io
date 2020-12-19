@@ -78,17 +78,6 @@ width: 30%;
 }
 
 
-.hovertest .hoverimage {
-  position: absolute;
-  left: 0;
-  top: 0;
-  display: none;
-}
-
-.hovertest:hover .hoverimage{
-  display: block;
-}
-
 /* div{
 
   text-align: center;
