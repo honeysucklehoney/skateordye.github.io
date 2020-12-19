@@ -55,12 +55,10 @@ text-decoration: none;
 
 .row:after {
   display: flex;
-  margin: 10px;
 }
 
 .column {
   flex: 50%;
-  margin: 10px;
 }
 
 /* div{
