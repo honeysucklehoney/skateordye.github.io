@@ -53,6 +53,10 @@ color: black;
 text-decoration: none;
 }
 
+ .column {
+    float: left;
+    }
+
 .row:after {
   content: "";
   display: table;
