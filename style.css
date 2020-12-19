@@ -57,15 +57,15 @@ text-decoration: none;
   display: flex;
 }
 
-.column_left {
+.left {
   flex: 30%;
 }
 
-.column_middle{
+.middle{
   flex: 30%;
 }
 
-.column_right {
+.right {
   flex: 30%;
 }
 
