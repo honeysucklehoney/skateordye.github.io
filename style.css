@@ -53,28 +53,26 @@ color: black;
 text-decoration: none;
 }
 
+.leftside, .rightside{
+  width: 100%;
+}
+
+.leftside{
+  float: left;
+}
+
+.rigthside{
+  float: right;
+}
+
+
  .column {
-    float: left;
-   width 30%
     }
 
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+  
 }
 
-.left {
-  width: 30%;
-}
-
-.middle{
-  width: 30%;
-}
-
-.right {
-  width: 30%;
-}
 
 /* div{
 
