@@ -102,6 +102,7 @@ blockquote{
     height: 100%;
     overflow: scroll;
 }
+
 #right {
     float: left;
     width: 50%;
