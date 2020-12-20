@@ -106,7 +106,7 @@ blockquote{
 #right {
     float: left;
     width: 50%;
-    background: AliceBlue;
+ background-image: linear-gradient(white, AliceBlue);
     height: 100%;
     overflow: scroll;
     text-align: justify;
