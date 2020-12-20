@@ -97,17 +97,19 @@ blockquote{
 #left {
     float: left;
     width: 50%;
-    background: red;
+    background: LavenderBlush;
     height: 100%;
     overflow: scroll;
+    text-align: justify;
 }
 
 #right {
     float: left;
     width: 50%;
-    background: blue;
+    background: AliceBlue;
     height: 100%;
     overflow: scroll;
+    text-align: justify;
 }
 
 
