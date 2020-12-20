@@ -97,7 +97,7 @@ blockquote{
 #left {
     float: left;
     width: 50%;
-    background: LavenderBlush;
+    background-image: linear-gradient(white, LavenderBlush);
     height: 100%;
     overflow: scroll;
     text-align: justify;
