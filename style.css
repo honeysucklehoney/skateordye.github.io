@@ -92,6 +92,26 @@ blockquote{
   margin-bottom: 0px;
 }
 
+#content, html, body {
+    height: 98%;
+}
+#left {
+    float: left;
+    width: 50%;
+    background: red;
+    height: 100%;
+    overflow: scroll;
+}
+#right {
+    float: left;
+    width: 50%;
+    background: blue;
+    height: 100%;
+    overflow: scroll;
+}
+
+
+
 /* div{
 
   text-align: center;
@@ -167,6 +187,9 @@ blockquote{
   margin-left:;
 
 }
+
+
+
 
 
 body{
