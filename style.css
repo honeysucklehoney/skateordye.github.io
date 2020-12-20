@@ -100,7 +100,7 @@ blockquote{
     background-image: linear-gradient(white, LavenderBlush);
     height: 100%;
     overflow: scroll;
-    text-align: justify;
+    text-align: left;
 }
 
 #right {
@@ -109,9 +109,14 @@ blockquote{
  background-image: linear-gradient(white, AliceBlue);
     height: 100%;
     overflow: scroll;
-    text-align: justify;
+    text-align: left;
 }
 
+#diy text{
+  
+  font-size: 12px;
+  padding: 10px;
+}
 
 
 /* div{
