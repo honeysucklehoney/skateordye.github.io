@@ -86,6 +86,7 @@ blockquote{
 
 .gohome {
   width: 200px;
+  object-fit: scale-down;
 }
 
 /* div{
