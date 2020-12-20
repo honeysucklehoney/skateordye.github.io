@@ -83,6 +83,7 @@ blockquote{
   object-fit: scale-down;
   overflow: hidden;
   bottom-margin: 0px;
+  display: inline;
 }
 
 .gohome {
