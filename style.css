@@ -53,8 +53,9 @@ text-decoration: none;
 }
 
 .slideshow-container {
-  max-width: 70%;
-  position: center;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 /* Hide the images by default */
 .mySlides {
