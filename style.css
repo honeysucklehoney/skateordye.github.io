@@ -28,7 +28,7 @@ height: 100%;
 
 
 .slideshow-container {
-  max-width: 1000px;
+  /*max-width: 4000px; */
   position: relative;
   margin: auto;
 }
