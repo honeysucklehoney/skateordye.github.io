@@ -125,7 +125,7 @@ blockquote{
 #left {
     float: left;
     width: 50%;
-    background-image: linear-gradient(white, LavenderBlush);
+    background-color: white;
     height: 100%;
     overflow: scroll;
     text-align: left;
@@ -134,7 +134,7 @@ blockquote{
 #right {
     float: left;
     width: 50%;
- background-image: linear-gradient(white, AliceBlue);
+ background-color: white;
     height: 100%;
     overflow: scroll;
     text-align: left;
