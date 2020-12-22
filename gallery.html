@@ -11,172 +11,182 @@
 <scrip type="text/javascript" src="https://cdn.rawgit.com/asvd/dragscroll/master/dragscroll.js">
 </head>
     
-<style>
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-    
-.mySlides {
-    display: none;
-  margin-left: auto;
-  margin-right: auto;    
-    }
-img {vertical-align: middle;}
-
-/* Slideshow container */
-.slideshow-container {
-  position: relative;
-  margin: auto;
-  padding: 90px;
+ <style>
+     {
+  box-sizing: border-box;
 }
 
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: black;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 90px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: yellow;
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
+.slider {
+  width: 300px;
   text-align: center;
+  overflow: hidden;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+.slides {
+  display: flex;
+  
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  
+  
+  
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  
+  /*
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+  */
+}
+.slides::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+.slides::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slides::-webkit-scrollbar-track {
+  background: transparent;
+}
+.slides > div {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+  width: 300px;
+  height: 300px;
+  margin-right: 50px;
+  border-radius: 10px;
+  background: #eee;
+  transform-origin: center center;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 100px;
+}
+.slides > div:target {
+/*   transform: scale(0.8); */
+}
+.author-info {
+  background: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 0.75rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+}
+.author-info a {
+  color: white;
+}
+img {
+  object-fit: cover;
   position: absolute;
   top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
+.slider > a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+  margin: 0 0 0.5rem 0;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+}
+.slider > a:focus {
+  background: #000;
 }
 
-.active, .dot:hover {
-  background-color: #717171;
+/* Don't need button navigation */
+@supports (scroll-snap-type) {
+  .slider > a {
+    display: none;
+  }
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+html, body {
+  height: 100%;
+  overflow: hidden;
 }
-
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #74ABE2, #5563DE);
+  font-family: 'Ropa Sans', sans-serif;
 }
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-</style>
-</head>
-<body>
-
-   <blockquote> 
+     
+    </style>
+    
+    
+    <body>
+    
+       <blockquote> 
         <a href=" https://honeysucklehoney.github.io/skateordye.github.io/" >
              <div class="gohome"> <img src = "hover drawings/flowerman.png" alt= "skate or dye home botton" width="200"> </div>    
         </a>
 
             
-       </blockquote>     
-    
-    
-<div class="slideshow-container">
+       </blockquote>   
 
-<div class="mySlides fade">
-  <img src="photos/Photo_04.jpg" style="width:100%">
+<div class="slider">
+  
+  <a href="photos/Photo_04.jpg">1</a>
+  <a href="photos/Photo_19.jpg">2</a>
+  <a href="photos/Photo_83.jpg">3</a>
+  <a href="photos/Photo_19.jpg">4</a>
+  <a href="photos/Photo_04.jpg">5</a>
+
+  <div class="slides">
+    <div id="slide-1">
+      1
+    </div>
+    <div id="slide-2">
+      2
+    </div>
+    <div id="slide-3">
+      3
+    </div>
+    <div id="slide-4">
+      4
+    </div>
+    <div id="slide-5">
+      5
+    </div>
+  </div>
 </div>
-
-<div class="mySlides fade">
-  <img src= "photos/Photo_19.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <img src="photos/Photo_83.jpg" style="width:100%">
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">↜</a>
-<a class="next" onclick="plusSlides(1)">↝</a>
+</body>
     
-</div>
-    
-
-
-    
-<br>
-
-
 <script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}    
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";  
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-}
-</script>
-
+fetch('https://api.unsplash.com/photos/random/?count=5&client_id=52d8369eb3e2576a5f5b6423865e074e9c7045761bff1ac5664ff3e0bdb57a1d') 
+ .then(response => response.json())
+.then(data => {
+  data.forEaach(function(image, i) {
+   document.querySelector("#slide-" + (i+1)).innerHTML = `
+    <img src="${image.urls.regular}" alt="">
+      <p class="author-info">
+       <a href="${image.links.html}?utm_source=slider-thing&utm_medium=referral&utm_campaign=api-credit">Photo by ${image.user.name}</a> on <a href="https://unsplash.com/">Unsplash</a>
+      </p>
+    `;
+   });
+  });
+    
+    </script>
+    
+    
 </html>
